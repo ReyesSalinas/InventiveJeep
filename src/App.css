@@ -1,0 +1,147 @@
+
+.Rows{
+  margin-left: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 2%;
+}
+.Top{
+  color:white;
+  background: black;
+  border: none;
+}
+.Mid{
+  border: none;
+
+}
+
+.Img{
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.NavRef{
+  color:white;
+  text-underline: none;
+}
+
+.Contents{
+  background: white;
+  color:black;
+
+}
+
+.Section{
+  border-bottom: thin grey solid;
+  vertical-align: center;
+  margin-left: 5%;
+}
+
+
+.SectionHeader{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.Card{
+  border-bottom: thin lightgray solid;
+}
+.CardContents{
+  color:black;
+  height: 100%;
+  margin-left: 1%;
+  border-bottom: thin lightgray solid;
+}
+
+.Tab{
+  font-family: Arial;
+  font-size: 75%;
+  font-weight: bold;
+
+}
+
+
+
+.active{
+  color: black;
+  background: white;
+}
+
+.Tab:hover{
+  color:black;
+  background: lightgray;
+  border: none;
+}
+
+.CardTitle{
+  font-size: small;
+  text-align: center;
+  font-weight: bold;
+}
+
+.CardSub1{
+  font-size: x-small;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.CardSub2{
+  padding-top: 5%;
+  font-size: 50%;
+  text-align: center;
+  font-weight: lighter;
+}
+.Cost{
+  padding-top: 2%;
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Carousel{
+  horiz-align: center;
+}
+
+.ResponsiveImg{
+  max-height: 500px;
+  width:100%;
+}
+
+.Footer{
+  border-top: lightgray thin solid;
+  color:white;
+  background: black;
+  font-size: x-small;
+}
+.Legal{
+  font-size: xx-small;
+  word-wrap: break-word;
+  width:30%;
+}
+
+.SiteMap{
+  color:white;
+  background: black;
+  font-size: small;
+}
+.NavLink{
+  color:white;
+}
+.NavLink:hover{
+  color:white;
+}
+
+.ColHeader{
+  padding-bottom: 5%;
+  font-weight: bold;
+  font-size: small;
+}
+
+.SiteMapCol{
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+
+
