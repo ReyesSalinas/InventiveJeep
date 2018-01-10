@@ -38,9 +38,9 @@ export default class Jeep extends Component {
 
     render() {
         return (
-            <div class="MainDiv">
-            <header className='Top'>
-                <Nav tabs className='Mid'>
+            <div >
+            <header >
+                <Nav tabs className='Top'>
                     <NavItem >
                         <img src='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/global/header/logo-jeep.png'
                              className='Img'/>
