@@ -16,5 +16,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "A Jeep.com clone done with React",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReyesSalinas/InventiveJeep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReyesSalinas/InventiveJeep/issues"
+  },
+  "homepage": "https://github.com/ReyesSalinas/InventiveJeep#readme"
 }

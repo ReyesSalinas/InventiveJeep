@@ -104,7 +104,7 @@
 }
 
 .ResponsiveImg{
-  max-height: 500px;
+  max-height: 603px;
   width:100%;
 }
 
@@ -124,6 +124,7 @@
   color:white;
   background: black;
   font-size: small;
+
 }
 .NavLink{
   color:white;
@@ -142,6 +143,95 @@
   padding-bottom: 5%;
   padding-left: 5%;
 }
+
+.OuterBody{
+  background: #222222;
+}
+
+.InnerBody{
+  background: lightgrey;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.Gallery{
+  background: white;
+}
+
+.Center{
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.MainDiv{
+  background: black;
+}
+
+.GalleryLink{
+  color:black;
+  background: white;
+
+}
+.GalleryLink:hover{
+  color:black;
+  background: white;
+}
+
+.HeaderCenter{
+  text-align: center;
+}
+.CardFooter{
+  background: black;
+  color: white;
+  text-align: right;
+}
+
+.Right{
+
+}
+.Arrow{
+  color: gold;
+  font-weight: bold;
+}
+.CardGallery{
+  margin-left: 1%;
+  margin-right: 1%
+}
+.GalleryCard{
+  margin-top: 2%;
+  margin-bottom:2%;
+
+}
+
+.Glyphicon{
+  margin-left:25%;
+  margin-right:25%;
+
+  max-width:35%;
+  max-height:35%;
+}
+.ShoppingCard{
+  border: none;
+}
+
+.LinkPanelRow{
+
+  margin-left: 20%;
+
+}
+.PanelSub{
+  margin-top: 10%;
+
+}
+.LinkPanelCol{
+  margin-left: 25%;
+}
+
+
+
+
+
+
+
 
 
 

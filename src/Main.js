@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 
 import JeepCarousel from './JeepCarousel';
-import {Row,Col,Nav,NavLink,NavbarBrand,Navbar,NavItem,Collapse} from 'reactstrap';
+import {Row,Col,Nav,NavLink,NavbarBrand,Navbar,NavItem,Collapse,Card,CardSubtitle} from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
+import {JeepsCard} from "./JeepTab";
 import './App.css'
 
 
-export default class Main extends Component{
+export default class JeepMain extends Component{
 
     render(){
 
         return(
-            <div>
+            <div className='MainDiv'>
                 <JeepCarousel />
-
+                <MainBody />
                 <SiteMap />
                 <Footer />
 
@@ -24,11 +25,80 @@ export default class Main extends Component{
     }
 }
 
+class MainBody extends Component
+{
+    render(){
+        return(
+            <div className="OuterBody">
+                <div className="InnerBody">
+                    <CardGallery />
+                    <JeepGallery />
+                </div>
+                <SearchBar />
+            </div>
+
+        );
+    }
+}
+
+class SearchBar extends Component{
+     render(){
+         return(
+             <input/>
+         );
+     }
+}
+class CardGallery extends Component{
+    render(){
+        return(
+            <Row className='CardGallery'>
+                <ImageCard image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/promo/2019-Jeep-Cherokee-BHP-Promotile-Phase1.jpg.image.500.jpg'/>
+                <ImageCard image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/promo/JEEP%20_%202018%20_%20Grand%20Cherokee%20_%20PromoTIle%20_%20Winter%20Hero%20Slider%20Update.jpg.image.500.jpg' />
+                <ImageCard image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/promo/JEEP%20_%202018%20_%20Compass%20_%20PromoTile%20_%20Winter%20Hero%20Slider%20Update.jpg.image.500.jpg' />
+                <ImageCard image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/promo/2018-Jeep-BHP-Promotile-Wrangler-JL.jpg.image.500.jpg' />
+            </Row>
+        );
+    }
+}
+
+class ImageCard extends Component{
+    render(){
+        return(
+            <Col md='3' className='GalleryCard' >
+                <Card className='BlackBorder' >
+                    <img className='Img' src={this.props.image}/>
+                    <div className='CardFooter'><NavLink className='Right'>{this.props.cardFooter}<span className='Arrow'> > </span></NavLink></div>
+                </Card>
+
+            </Col>
+
+        );
+    }
+}
+class JeepGallery extends Component{
+    render(){
+        return (
+            <div className='Gallery'>
+                <h4 className='HeaderCenter'>JEEP VEHICLES</h4>
+                <Row >
+                    <JeepsCard size='2' link='/AllNewWrangler' jeepName='ALL-NEW WRANGLER' description='' image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/lineup/2018-Jeep-BHP-Jeep-Vehicles-All-New-Wrangler-JL-v2.jpg.image.500.jpg'/>
+                    <JeepsCard size='2' link='/GRANDCHEROKEE' jeepName='GRAND CHEROKEE' description='' image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/lineup/2018-Jeep-BHP-Jeep-Vehicles-Grand-Cherokee-v2.jpg.image.500.jpg'/>
+                    <JeepsCard size='2' link='/CHEROKEE' jeepName='CHEROKEE' description='' image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/lineup/2018-Jeep-BHP-Jeep-Vehicles-Cherokee-v2.jpg.image.500.jpg'/>
+                    <JeepsCard size='2' link='/COMPASS' jeepName='COMPASS' description='' image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/lineup/2018-Jeep-BHP-Jeep-Vehicles-Compass-v2.jpg.image.500.jpg'/>
+                    <JeepsCard size='2' link='/RENEGADE' jeepName='RENEGADE' description='' image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/lineup/2018-Jeep-BHP-Jeep-Vehicles-Renegade-v2.jpg.image.500.jpg'/>
+                    <JeepsCard size='2' link='/WRANGLERJK' jeepName='WRANGLER JK'  image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/lineup/2018-Jeep-BHP-Jeep-Vehicles-Wrangler-JK-v2.jpg.image.500.jpg'/>
+
+                </Row>
+            </div>
+        );
+    }
+}
+
 class SiteMap extends Component{
     render(){
         return(
-          <div className='SiteMap'>
-              <Row>
+          <div className='SiteMap Center'>
+              <Row >
               <Col md='2'>
                   <Row className='SiteMapCol'>
                       <Nav navbar>
@@ -143,14 +213,11 @@ class SiteMap extends Component{
                   </Row>
                   <Row className='SiteMapCol'>
                       <Nav navbar>
-                          <NavItem className='ColHeader'>COST</NavItem>
-                          <SiteMapLink name='View Incentives & Offers'/>
-                          <SiteMapLink name='Military Bonus Cash'/>
-                          <SiteMapLink name='Calculate Payment'/>
-                          <SiteMapLink name='Find Your Trade-In Value'/>
-                          <SiteMapLink name='Get a Quote'/>
-                          <SiteMapLink name='Apply for Credit'/>
-                          <SiteMapLink name='Get PreQualified'/>
+                          <NavItem className='ColHeader'>Support</NavItem>
+                          <SiteMapLink name='Unconnect' image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/global/footer/Uconnect-80px.png'/>
+                          <SiteMapLink name='Serious' image='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/global/footer/footer-siriusxm-new.png' />
+
+
                       </Nav>
                   </Row>
               </Col>
@@ -162,6 +229,10 @@ class SiteMap extends Component{
 
 class SiteMapLink extends  Component{
     render(){
+        if(this.props.image !== undefined)
+        {
+            return(<NavLink className='NavLink' href={this.props.name}><img src={this.props.image}/></NavLink>);
+        }
         return(
             <NavLink className='NavLink' href={this.props.name}>{this.props.name}</NavLink>
         );
@@ -171,7 +242,7 @@ class Footer extends Component{
 
     render(){
         return(
-            <div className='Footer'>
+            <div className='Footer Center'>
                 <FooterContent />
             </div>
         );
