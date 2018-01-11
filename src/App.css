@@ -176,9 +176,14 @@
   background: white;
 }
 
-.HeaderCenter{
-  text-align: center;
+.BlackLink{
+  color:black;
 }
+.BlackLink:hover{
+  color:black;
+  color:black;
+}
+
 .CardFooter{
   background: black;
   color: white;
@@ -191,6 +196,7 @@
 .Arrow{
   color: gold;
   font-weight: bold;
+
 }
 .CardGallery{
   margin-left: 1%;
@@ -250,6 +256,26 @@
   border-bottom: gray solid thin;
 }
 
+.Center-Vertical{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.HeaderCenter{
+  text-align: center;
+}
+
+.Center{
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.FooterNav{
+  color:white;
+}
+.FooterNave:hover{
+  color:white;
+}
 
 
 

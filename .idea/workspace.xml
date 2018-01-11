@@ -17,10 +17,17 @@
       <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3179">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="149">
+              <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <element signature="n#CardGallery#0" expanded="false" />
+                <element signature="n#ImageCard#0" expanded="false" />
+                <element signature="n#JeepGallery#0" expanded="false" />
+                <element signature="n#SiteMap#0" expanded="false" />
+                <element signature="n#SiteMapLink#0" expanded="false" />
+                <element signature="n#InnerFooter#0" expanded="false" />
+                <element signature="n#OuterFooter#0" expanded="false" />
                 <element signature="n#FooterContent#0" expanded="false" />
                 <element signature="n#FooterNavbar#0" expanded="false" />
                 <element signature="n#FooterNavLink#0" expanded="false" />
@@ -29,11 +36,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="JeepCarousel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JeepCarousel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#191#874#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="JeepTab.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JeepTab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="82" column="44" lean-forward="false" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+            <state relative-caret-position="430">
+              <caret line="87" column="36" lean-forward="false" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -44,8 +64,8 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="205" column="17" lean-forward="false" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingTools.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingTools.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShoppingTools.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -82,8 +102,8 @@
       <file leaf-file-name="Jeep.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Jeep.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
-              <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+            <state relative-caret-position="544">
+              <caret line="50" column="52" lean-forward="false" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -104,13 +124,22 @@
     <findStrings>
       <find>GalleryCard</find>
       <find>SiteMap</find>
-      <find>center</find>
       <find>cA</find>
       <find>row</find>
       <find>Main</find>
       <find>top</find>
       <find>maind</find>
       <find>headerc</find>
+      <find>center</find>
+      <find>cardf</find>
+      <find>card</find>
+      <find>gallerycard</find>
+      <find>BlackBorder</find>
+      <find>arro</find>
+      <find>cardfoo</find>
+      <find>arr</find>
+      <find>Foot</find>
+      <find>arrow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,10 +149,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/JeepTab.js" />
-        <option value="$PROJECT_DIR$/src/Main.js" />
         <option value="$PROJECT_DIR$/src/Jeep.js" />
         <option value="$PROJECT_DIR$/src/ShoppingTools.js" />
+        <option value="$PROJECT_DIR$/src/Main.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/JeepCarousel.js" />
       </list>
     </option>
   </component>
@@ -138,11 +168,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="610" />
-    <option name="y" value="72" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="356" />
+    <option name="y" value="-8" />
     <option name="width" value="1109" />
-    <option name="height" value="1078" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -170,6 +200,22 @@
             <path>
               <item name="InventiveJeep" type="b2602c69:ProjectViewProjectNode" />
               <item name="InventiveJeep" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InventiveJeep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InventiveJeep" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="reactstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InventiveJeep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InventiveJeep" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InventiveJeep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InventiveJeep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -184,6 +230,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,18 +258,18 @@
       <option name="presentableId" value="Default" />
       <updated>1515523525843</updated>
       <workItem from="1515523527181" duration="11028000" />
-      <workItem from="1515553428482" duration="10670000" />
+      <workItem from="1515553428482" duration="18838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21698000" />
+    <option name="totallyTimeSpent" value="29866000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="610" y="72" width="1109" height="1078" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25213677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14225501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -230,7 +277,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33183858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3307436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -270,7 +317,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -281,6 +328,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#CardGallery#0" expanded="false" />
+            <element signature="n#ImageCard#0" expanded="false" />
+            <element signature="n#JeepGallery#0" expanded="false" />
+            <element signature="n#SiteMap#0" expanded="false" />
+            <element signature="n#SiteMapLink#0" expanded="false" />
+            <element signature="n#InnerFooter#0" expanded="false" />
+            <element signature="n#OuterFooter#0" expanded="false" />
             <element signature="n#FooterContent#0" expanded="false" />
             <element signature="n#FooterNavbar#0" expanded="false" />
             <element signature="n#FooterNavLink#0" expanded="false" />
@@ -368,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Jeep.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+        <state relative-caret-position="544">
+          <caret line="50" column="52" lean-forward="false" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -378,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JeepTab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="82" column="44" lean-forward="false" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        <state relative-caret-position="430">
+          <caret line="87" column="36" lean-forward="false" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -388,14 +442,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3179">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="149">
+          <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#CardGallery#0" expanded="false" />
+            <element signature="n#ImageCard#0" expanded="false" />
+            <element signature="n#JeepGallery#0" expanded="false" />
+            <element signature="n#SiteMap#0" expanded="false" />
+            <element signature="n#SiteMapLink#0" expanded="false" />
+            <element signature="n#InnerFooter#0" expanded="false" />
+            <element signature="n#OuterFooter#0" expanded="false" />
             <element signature="n#FooterContent#0" expanded="false" />
             <element signature="n#FooterNavbar#0" expanded="false" />
             <element signature="n#FooterNavLink#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -409,14 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="205" column="17" lean-forward="false" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ShoppingTools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -427,6 +488,43 @@
             <element signature="n#LinkPanelGallery#0" expanded="false" />
             <element signature="n#LinkPanelCard#0" expanded="false" />
             <element signature="n#LinkPanels#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/reactstrap/dist/reactstrap.es.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2499">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/reactstrap/lib/CarouselControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/reactstrap/lib/Carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="264" column="35" lean-forward="false" selection-start-line="264" selection-start-column="34" selection-end-line="264" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JeepCarousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#191#874#0" expanded="false" />
           </folding>
         </state>
       </provider>

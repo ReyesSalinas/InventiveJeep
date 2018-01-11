@@ -16,7 +16,7 @@ export default class JeepMain extends Component{
                 <JeepCarousel />
                 <MainBody />
                 <SiteMap />
-                <Footer />
+                <OuterFooter />
 
             </div>
         );
@@ -30,21 +30,32 @@ class MainBody extends Component
     render(){
         return(
             <div className="OuterBody">
-                <div className="InnerBody">
+                <div className="InnerBody Fit">
                     <CardGallery />
                     <JeepGallery />
+                    <InnerFooter />
                 </div>
-                <SearchBar />
+                <FooterNavBar />
             </div>
 
         );
     }
 }
 
-class SearchBar extends Component{
+
+class FooterNavBar extends Component{
      render(){
          return(
-             <input/>
+             <Navbar className='Center Center-Vertical FooterNav'>
+                 <NavLink href='Link' className='NavLink'>Links</NavLink>
+                 <NavLink href='Link' className='NavLink'>Links</NavLink>
+                 <NavLink href='Link' className='NavLink'>Links</NavLink>
+                 <NavLink href='Link' className='NavLink'>Links</NavLink>
+                 <NavLink href='Link' className='NavLink'>Links</NavLink>
+                 <NavItem>
+                    <input/>
+                 </NavItem>
+             </Navbar>
          );
      }
 }
@@ -65,9 +76,9 @@ class ImageCard extends Component{
     render(){
         return(
             <Col md='3' className='GalleryCard' >
-                <Card className='BlackBorder' >
+                <Card  >
                     <img className='Img' src={this.props.image}/>
-                    <div className='CardFooter'><NavLink className='Right'>{this.props.cardFooter}<span className='Arrow'> > </span></NavLink></div>
+                    <div className='CardFooter'><NavLink href={this.props.link} className='Right'>{this.props.cardFooter}<span className='Arrow'> > </span></NavLink></div>
                 </Card>
 
             </Col>
@@ -238,7 +249,31 @@ class SiteMapLink extends  Component{
         );
     }
 }
-class Footer extends Component{
+
+class InnerFooter extends Component{
+    render(){
+        return(
+            <div className='Center Center-Vertical'>
+              <Row>
+                  <Col md='2'>
+                      <img src='https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/badge/2017-Jeep-BHP-Kelly-Blue-Book-Badge.png.image.150.png'/>
+                  </Col>
+                  <Col md='8' className='Center-Vertical'>
+                      <div >
+                        <h4>THIS IS THE TITLE</h4>
+                          More words because why not?
+                          <br/>
+                          Might as well do more
+                      </div>
+                      <NavLink className='BlackLink' href='/LearnMore'>LearnMore<span className='Arrow'> > </span></NavLink>
+                  </Col>
+              </Row>
+            </div>
+        );
+    }
+}
+
+class OuterFooter extends Component{
 
     render(){
         return(
@@ -248,6 +283,8 @@ class Footer extends Component{
         );
     }
 }
+
+
 
 class FooterContent extends Component{
     render(){

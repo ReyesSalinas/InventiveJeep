@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Carousel,CarouselItem,CarouselControl,CarouselIndicators,CarouselCaption} from 'reactstrap';
+import {Button,Carousel,CarouselItem,CarouselControl,CarouselIndicators,CarouselCaption,Col,Row} from 'reactstrap';
 import './App.css'
 const items = [
         {
@@ -90,5 +90,40 @@ class JeepCarousel extends Component {
     }
 }
 
+
+class CarouselContentPanel extends Component{
+
+
+
+    render(){
+        return (<div className={this.props.className}>
+            <Col>
+                <Row>
+                    <h4>{this.props.title}</h4>
+                    {this.props.carouselBody}
+                </Row>
+                <Row>
+                    <Col>
+                        <ContentButton color={this.props.color[0]} description={this.props.description[0]} buttonClass={this.props.buttonClass[0]} />
+                    </Col>
+                    <Col>
+                        <ContentButton color={this.props.color[1]} description={this.props.description[1]} buttonClass={this.props.buttonClass[1]}/>
+                    </Col>
+                </Row>
+            </Col>
+        </div>);
+    }
+
+}
+
+class ContentButton extends Component{
+
+    render(){
+
+        return(
+            <Button color={this.props.color} className={this.props.buttonClass}>{this.props.description}<span className='Arrow Large Gold'> > </span> </Button>
+        );
+    }
+}
 
 export default JeepCarousel;
